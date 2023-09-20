@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menuSelCuenta"
+        app:showAsAction="ifRoom"
+        android:title="Cuenta">
+        <menu
+            android:id="@+id/submenu_cuentas"
+            android:title="">
+        </menu>
+    </item>
+    <item
+        android:id="@+id/menuAgregarCuenta"
+        android:title="Agregar Cuenta" />
+    <item
+        android:icon="@drawable/baseline_map_24"
+        android:id="@+id/menu2"
+
+        android:title="@string/menu_name1" />
+    <item
+        android:icon="@drawable/baseline_power_settings_new_24"
+        android:id="@+id/menu"
+        android:title="@string/menu_name2" />
+</menu>

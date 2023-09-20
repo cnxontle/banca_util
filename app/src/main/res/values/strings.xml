@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Banca Útil</string>
+    <string name="mainlabel1">No. Cuenta</string>
+    <string name="mainlabel2">Contraseña</string>
+    <string name="mainlabel3">Ingresa tus datos de acceso:</string>
+    <string name="mainbutton1">Acceder</string>
+    <string name="mainbutton2">Registro</string>
+    <string name="mainsaludo2">¡Buen Día!</string>
+    <string name="registrolabel1">Favor de llenar los siguientes campos:</string>
+    <string name="registrolabel2">Nombre completo</string>
+    <string name="registrolabel3">Apellidos</string>
+    <string name="registrolabel4">Correo electrónico</string>
+    <string name="registrolabel5">Número de cuenta</string>
+    <string name="registrolabel6">Número de tarjeta</string>
+    <string name="registrolabel7">Tipo de tarjeta:</string>
+    <string name="registrolabel8">Débito</string>
+    <string name="registrolabel9">Crédito</string>
+    <string name="registrolabel10">Contraseña</string>
+    <string name="registrolabel11">Confirma la contraseña</string>
+    <string name="registrolabel12">Registrarse</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Bienvenido, </string>
+    <string name="hello_pagos_fragment">Compras y Pagos de Servicios</string>
+    <string name="hello_transfer_fragment">Transferencia</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_balance">Balance</string>
+    <string name="title_pagos">Pagos</string>
+    <string name="title_transferencias">Transferencias</string>
+    <string name="menu_name1">Sucursales</string>
+    <string name="menu_name2">Cerrar Sesión</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="google_maps_key" translatable="false">AIzaSyBrRm74Qa-R0gvTjAOxaMhvZktHBuWHx_8</string>
+    <string name="submenu_cuentas">Elige una Cuenta</string>
+    <string name="aviso">AVISO: Los pagos de Creditos hipotecario nómina se ejecutan mensualmente y de forma automática en tu cuenta. \n\nSi ademas de esto deseas hacer un abono o liquidar tu deuda, puedes hacerlo ingresando el monto en el siguiente campo y presionando el botón "PAGAR"</string>
+</resources>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FourthFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/crediCuenta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="10dp"
+        android:textSize="20sp"
+        android:text="Cuenta:" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="90dp"
+        android:gravity="center_vertical"
+        android:text="Saldo: "
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/creditoBalance"
+        android:layout_width="193dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="200dp"
+
+        android:layout_marginTop="90dp"
+        android:gravity="end"
+        android:text="$ 5432.10"
+        android:textSize="20sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginTop="205dp"
+        android:layout_marginStart="10dp"
+        android:textSize="20sp"
+        android:text="Tipo:" />
+
+    <RadioGroup
+        android:id="@+id/radiogruptipocredito"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="235dp"
+        android:orientation="horizontal" >
+        <RadioButton
+            android:id="@+id/radioButtoncredinomina"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Crédito Nómina" />
+
+        <RadioButton
+            android:id="@+id/radioButtoncredihipo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Crédito Hipotecario" />
+
+
+    </RadioGroup>
+
+
+    <EditText
+        android:id="@+id/creditocasa"
+        android:layout_width="390dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="340dp"
+        android:ems="10"
+        android:hint="Ingresa una Cantidad"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="10dp"
+        android:textSize="20sp"
+        android:text="Solicita un Crédito" />
+
+    <TextView
+        android:id="@+id/creditosPregunta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginTop="310dp"
+        android:layout_marginStart="10dp"
+        android:textSize="20sp"
+        android:text="¿Cuánto dinero necesitas?" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginTop="415dp"
+        android:layout_marginStart="10dp"
+        android:textSize="20sp"
+        android:text="¿Cuánto tiempo tardarías en pagar?" />
+
+
+    <Button
+        android:id="@+id/buttoncred1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="650dp"
+        android:text="Solicitar" />
+
+    <Button
+        android:id="@+id/buttoncredpagar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="306dp"
+        android:layout_marginTop="650dp"
+        android:text="Pagar" />
+
+
+    <Button
+        android:id="@+id/buttoncred2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="166dp"
+        android:layout_marginTop="650dp"
+        android:text="Estatus" />
+
+    <RadioGroup
+        android:id="@+id/radiogrouptiempo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="445dp"
+        android:orientation="horizontal" >
+        <RadioButton
+            android:id="@+id/periodo1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6 meses" />
+
+        <RadioButton
+            android:id="@+id/periodo2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12 meses" />
+        <RadioButton
+            android:id="@+id/periodo3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="24 meses" />
+        <RadioButton
+            android:id="@+id/periodo4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="48 meses" />
+
+    </RadioGroup>
+
+</FrameLayout>

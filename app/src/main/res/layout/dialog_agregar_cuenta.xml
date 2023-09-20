@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Agregar nueva cuenta"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextNumCuenta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Número de cuenta" />
+
+    <EditText
+        android:id="@+id/editTextAlias"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Alias" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupTipoCuenta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioButtonCredito"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="crédito" />
+
+        <RadioButton
+            android:id="@+id/radioButtonDebito"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="débito" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buttonGuardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AGREGAR" />
+
+</LinearLayout>

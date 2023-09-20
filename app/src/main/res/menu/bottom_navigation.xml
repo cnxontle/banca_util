@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/first_fragment"
+        android:icon="@drawable/baseline_account_balance_24"
+        android:title="@string/title_balance" />
+
+    <item
+        android:id="@+id/second_fragment"
+        android:icon="@drawable/baseline_monetization_on_24"
+        android:title="@string/title_pagos" />
+    <item
+        android:id="@+id/fourth_fragment"
+        android:icon="@drawable/baseline_payment_24"
+        android:title="Creditos" />
+
+    <item
+        android:id="@+id/third_fragment"
+        android:icon="@drawable/outline_compare_arrows_24"
+        android:title="@string/title_transferencias" />
+
+</menu>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThirdFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="144dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center_vertical"
+        android:text="@string/hello_transfer_fragment"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tranferCuenta"
+        android:layout_width="278dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="60dp"
+        android:gravity="center_vertical"
+        android:text="Cuenta:"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="90dp"
+        android:gravity="center_vertical"
+        android:text="Saldo: "
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/transferBalance"
+        android:layout_width="193dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="200dp"
+
+        android:layout_marginTop="90dp"
+        android:gravity="end"
+        android:text="$ 5432.10"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/noCtaDest"
+        android:layout_width="390dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="250dp"
+        android:ems="10"
+        android:hint="No. Cuenta Destino"
+        android:importantForAutofill="no"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp" />
+    <EditText
+        android:id="@+id/transferMonto"
+        android:layout_width="390dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="305dp"
+        android:ems="10"
+        android:hint="Monto"
+        android:importantForAutofill="no"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp" />
+    <EditText
+        android:id="@+id/transferConcepto"
+        android:layout_width="390dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="360dp"
+        android:ems="10"
+        android:hint="Concepto"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/transferbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="650dp"
+        android:layout_marginStart="152dp"
+        android:text="Transferir" />
+
+
+</FrameLayout>

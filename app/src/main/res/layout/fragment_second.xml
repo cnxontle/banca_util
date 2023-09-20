@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:text="Selecciona un Pago" />
+    <TextView
+        android:id="@+id/pagoCuenta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="60dp"
+        android:textSize="20sp"
+        android:text="Cuenta:" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="90dp"
+        android:gravity="center_vertical"
+        android:text="Saldo: "
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/pagooBalance"
+        android:layout_width="193dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="200dp"
+
+        android:layout_marginTop="90dp"
+        android:gravity="end"
+        android:text="$ 5432.10"
+        android:textSize="20sp" />
+
+    <ImageButton
+        android:id="@+id/imageButtonSIAPA"
+        android:layout_width="121dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="200dp"
+        android:contentDescription="agua"
+        android:src="@mipmap/siapa_foreground" />
+
+    <ImageButton
+        android:id="@+id/imageButtoncfe"
+        android:layout_width="121dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="240dp"
+        android:layout_marginTop="200dp"
+        android:contentDescription="cfe"
+        android:src="@mipmap/cfe_foreground" />
+    <ImageButton
+        android:id="@+id/imageButtonrecarga"
+        android:layout_width="121dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="400dp"
+        android:contentDescription="cfe"
+        android:src="@mipmap/recargacel_foreground" />
+    <ImageButton
+        android:id="@+id/imageButtonOtros"
+        android:layout_width="121dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="240dp"
+        android:layout_marginTop="400dp"
+        android:contentDescription="cfe"
+        android:src="@mipmap/otros_foreground" />
+
+</FrameLayout>
